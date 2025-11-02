@@ -1,0 +1,124 @@
+############################
+# SISTEMA / EDITORES
+############################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# Linux
+*~
+# Editores / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+############################
+# LOGS / TEMPORALES
+############################
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.pid
+*.seed
+*.pid.lock
+*.tgz
+*.tmp
+tmp/
+temp/
+
+############################
+# SECRETS / AMBIENTE
+############################
+.env
+.env.*
+*.env.local
+*.local
+*.secret
+# Firmas/llaves
+*.keystore
+*.jks
+*.p12
+*.p8
+*.pem
+*.key
+keystore.properties
+
+############################
+# WEB / NODE
+############################
+node_modules/
+bower_components/
+dist/
+build/
+out/
+.cache/
+.parcel-cache/
+coverage/
+# Si generas artefactos estáticos separados (ajusta si aplica):
+www/
+# Dependiendo del gestor:
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+# (Si prefieres versionar los locks, elimina la línea correspondiente)
+
+############################
+# CAPACITOR / CORDOVA (si aplica)
+############################
+# Assets generados en Android (se copian desde tu web build):
+android/app/src/main/assets/public/
+
+############################
+# ANDROID / GRADLE
+############################
+*.iml
+.gradle/
+**/build/
+**/.cxx/
+**/.externalNativeBuild/
+local.properties
+captures/
+.externalNativeBuild/
+# Gradle wrapper: mantener el JAR del wrapper en el repo
+!gradle/wrapper/gradle-wrapper.jar
+# NDK/obj
+**/obj/
+# Firmas y almacenes ya cubiertos arriba
+
+############################
+# iOS (por si agregas plataforma iOS más adelante)
+############################
+# Xcode
+build/
+DerivedData/
+*.xcuserdatad/
+*.xcscmblueprint
+*.xccheckout
+*.xcworkspace/xcuserdata/
+# CocoaPods (si no deseas versionar Pods)
+Pods/
+Podfile.lock
+# (Si prefieres versionar Podfile.lock, quita la línea anterior)
+
+############################
+# PHP/COMPOSER (por si incluyes backend)
+############################
+vendor/
+composer.lock
+# (Si prefieres versionar composer.lock, elimina esta línea)
+
+############################
+# ARCHIVOS GRANDES/DERIVADOS
+############################
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
